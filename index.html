@@ -1,0 +1,166 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>Contestações Airbnb — panorama</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --azul:#0055FF; --navy:#080E32; --coral:#FC6058; --verde:#12A36B; --cinza:#9AA1BC;
+    --bg:#F5F7FB; --card:#FFFFFF; --texto:#1B2140; --suave:#5A6283; --linha:#E3E7F0;
+  }
+  *{box-sizing:border-box}
+  body{margin:0;background:var(--bg);color:var(--texto);font-family:Inter,system-ui,sans-serif;line-height:1.55}
+  header{background:var(--navy);color:#fff;padding:36px 16px 72px}
+  .wrap{max-width:920px;margin:0 auto;padding:0 16px}
+  header .wrap{padding:0}
+  .tag{display:inline-block;background:rgba(255,255,255,.12);border-radius:99px;padding:4px 12px;font-size:13px;margin-bottom:12px}
+  h1{margin:0 0 8px;font-size:30px;line-height:1.2}
+  header p{margin:0;color:#C9CEE6;max-width:680px}
+  main{padding:0 0 48px}
+  .kpis{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;margin-top:-44px}
+  .kpi{background:var(--card);border-radius:14px;padding:20px;box-shadow:0 4px 18px rgba(8,14,50,.08);border-top:4px solid var(--azul)}
+  .kpi.ok{border-top-color:var(--verde)} .kpi.no{border-top-color:var(--coral)}
+  .kpi .n{font-size:40px;font-weight:700;line-height:1}
+  .kpi .l{font-weight:600;margin-top:6px}
+  .kpi .s{color:var(--suave);font-size:14px;margin-top:4px}
+  section{background:var(--card);border-radius:14px;padding:24px;margin-top:18px;box-shadow:0 2px 10px rgba(8,14,50,.05)}
+  h2{margin:0 0 6px;font-size:20px;color:var(--navy)}
+  .lead{color:var(--suave);margin:0 0 16px}
+  .levas{display:grid;grid-template-columns:1fr 1fr;gap:14px}
+  .leva{border:1px solid var(--linha);border-radius:12px;padding:18px}
+  .leva h3{margin:0;font-size:16px}
+  .leva .per{color:var(--suave);font-size:14px;margin:2px 0 12px}
+  .leva .big{font-size:30px;font-weight:700;line-height:1}
+  .leva .big small{font-size:15px;font-weight:500;color:var(--suave)}
+  .leva p{margin:10px 0 0;font-size:15px}
+  .bar{height:10px;border-radius:99px;background:var(--linha);overflow:hidden;margin-top:12px;display:flex}
+  .bar i{display:block;height:100%}
+  .leg{display:flex;gap:14px;flex-wrap:wrap;font-size:13px;color:var(--suave);margin-top:8px}
+  .leg b{display:inline-block;width:10px;height:10px;border-radius:3px;margin-right:5px;vertical-align:-1px}
+  .tabs{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:14px}
+  .tabs button{font:inherit;font-size:14px;border:1px solid var(--linha);background:#fff;color:var(--texto);border-radius:99px;padding:6px 14px;cursor:pointer}
+  .tabs button.on{background:var(--azul);border-color:var(--azul);color:#fff}
+  table{width:100%;border-collapse:collapse;font-size:15px}
+  th,td{text-align:left;padding:10px 8px;border-bottom:1px solid var(--linha)}
+  th{font-size:13px;color:var(--suave);font-weight:600;text-transform:uppercase;letter-spacing:.03em}
+  td.num,th.num{text-align:right;white-space:nowrap}
+  td.ok{color:var(--verde);font-weight:600} td.no{color:#C9372C;font-weight:600}
+  tr.total td{font-weight:700;border-bottom:none}
+  .nota{font-size:13px;color:var(--suave);padding-left:18px;margin:0}
+  .nota li{margin-bottom:4px}
+  @media (max-width:640px){
+    .kpis,.levas{grid-template-columns:1fr}
+    .kpis{margin-top:-40px}
+    h1{font-size:24px}
+    .tbl{overflow-x:auto}
+  }
+</style>
+</head>
+<body>
+<header>
+  <div class="wrap">
+    <span class="tag">Atualizado em 28/10/2026</span>
+    <h1>Contestações de avaliações no Airbnb</h1>
+    <p>Tudo o que a skill de contestação enviou até hoje, de 09/10 a 28/10/2026, com o resultado oficial do Airbnb e dividido pelo mês de checkout da reserva.</p>
+  </div>
+</header>
+
+<main class="wrap">
+  <div class="kpis">
+    <div class="kpi">
+      <div class="n">155</div>
+      <div class="l">contestações enviadas</div>
+      <div class="s">cada avaliação conta uma vez, mesmo com 2ª tentativa</div>
+    </div>
+    <div class="kpi ok">
+      <div class="n">38</div>
+      <div class="l">aceitas (25%)</div>
+      <div class="s">o Airbnb removeu a avaliação</div>
+    </div>
+    <div class="kpi no">
+      <div class="n">115</div>
+      <div class="l">negadas (74%)</div>
+      <div class="s">o Airbnb manteve a avaliação no ar</div>
+    </div>
+  </div>
+
+  <section>
+    <h2>Primeira leva e envios seguintes</h2>
+    <p class="lead">Ainda há 2 contestações sem resposta do Airbnb, uma em cada leva.</p>
+    <div class="levas">
+      <div class="leva">
+        <h3>1ª leva</h3>
+        <div class="per">enviadas de 09/10 a 18/10</div>
+        <div class="big">123 <small>enviadas</small></div>
+        <p><strong>34 aceitas</strong> (28%) e <strong>88 negadas</strong> (72%). 1 segue sem resposta.</p>
+        <div class="bar"><i style="width:27.6%;background:var(--verde)"></i><i style="width:71.5%;background:var(--coral)"></i><i style="width:0.9%;background:var(--cinza)"></i></div>
+      </div>
+      <div class="leva">
+        <h3>Envios depois da 1ª leva</h3>
+        <div class="per">enviadas de 19/10 a 28/10</div>
+        <div class="big">32 <small>enviadas</small></div>
+        <p><strong>4 aceitas</strong> (13%) e <strong>27 negadas</strong> (84%). 1 segue sem resposta, enviada hoje.</p>
+        <div class="bar"><i style="width:12.5%;background:var(--verde)"></i><i style="width:84.4%;background:var(--coral)"></i><i style="width:3.1%;background:var(--cinza)"></i></div>
+      </div>
+    </div>
+    <div class="leg"><span><b style="background:var(--verde)"></b>aceitas</span><span><b style="background:var(--coral)"></b>negadas</span><span><b style="background:var(--cinza)"></b>sem resposta</span></div>
+  </section>
+
+  <section>
+    <h2>Resultado por mês de checkout da reserva</h2>
+    <p class="lead">O mês é o do checkout da reserva avaliada, não o do envio: todos os envios foram feitos em outubro.</p>
+    <div class="tabs" role="tablist">
+      <button class="on" data-t="geral">Geral</button>
+      <button data-t="l1">1ª leva (09/10 a 18/10)</button>
+      <button data-t="l2">Depois da 1ª leva (19/10 a 28/10)</button>
+    </div>
+    <div class="tbl">
+    <table>
+      <thead><tr><th>Mês de checkout</th><th class="num">Enviadas</th><th class="num">Aceitas</th><th class="num">Negadas</th><th class="num">Sem resposta</th></tr></thead>
+      <tbody id="corpo"></tbody>
+    </table>
+    </div>
+  </section>
+
+  <section>
+    <h2>Como os números foram apurados</h2>
+    <ul class="nota">
+      <li>Fonte: planilha do panorama das contestações gerada pela skill (versão de 28/10/2026), com o resultado oficial dos e-mails do Airbnb no contato@.</li>
+      <li>“Aceita” inclui as avaliações que saíram da página do anúncio. A skill só confirma de novo numa segunda leitura, mas a avaliação já foi removida.</li>
+      <li>O mês vem do código de cada reserva, cruzado com a data de checkout no data lake da Seazone (Nekt).</li>
+      <li>A 1ª leva soma a lista enviada pelo Bruno de 09/10 a 12/10 e os envios da Victoria de 13/10 a 17/10. Não houve envio em 18/10.</li>
+      <li>9 contestações da lista do Bruno não têm o código da reserva registrado e aparecem como “sem código de reserva”.</li>
+      <li>Um caso tinha duas reservas possíveis, uma com checkout em maio e outra em julho, e foi contado em julho.</li>
+    </ul>
+  </section>
+</main>
+
+<script>
+  const meses=['Junho','Julho','Agosto','Setembro','Outubro','Sem código de reserva'];
+  const dados={
+    l1:[[5,1,4,0],[9,8,1,0],[17,7,10,0],[47,10,37,0],[36,6,30,0],[9,2,6,1]],
+    l2:[[0,0,0,0],[1,0,1,0],[1,0,1,0],[0,0,0,0],[30,4,25,1],[0,0,0,0]]
+  };
+  dados.geral=dados.l1.map((r,i)=>r.map((v,j)=>v+dados.l2[i][j]));
+  function render(k){
+    const linhas=dados[k];let tot=[0,0,0,0],h='';
+    linhas.forEach((r,i)=>{
+      if(!r[0])return;
+      r.forEach((v,j)=>tot[j]+=v);
+      h+=`<tr><td>${meses[i]}</td><td class="num">${r[0]}</td><td class="num ok">${r[1]}</td><td class="num no">${r[2]}</td><td class="num">${r[3]||'–'}</td></tr>`;
+    });
+    h+=`<tr class="total"><td>Total</td><td class="num">${tot[0]}</td><td class="num">${tot[1]}</td><td class="num">${tot[2]}</td><td class="num">${tot[3]||'–'}</td></tr>`;
+    document.getElementById('corpo').innerHTML=h;
+  }
+  document.querySelectorAll('.tabs button').forEach(b=>b.onclick=()=>{
+    document.querySelectorAll('.tabs button').forEach(x=>x.classList.toggle('on',x===b));
+    render(b.dataset.t);
+  });
+  render('geral');
+</script>
+</body>
+</html>
